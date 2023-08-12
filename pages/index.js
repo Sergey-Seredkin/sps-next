@@ -15,10 +15,10 @@ export default class extends Component {
    
     
      render () {
-        // const imageLoader = ({ src, width, quality }) => {
-        //     return `https://example.com/${src}?w=${width}&q=${quality || 75}`}
+
         return (
             <div className="homepage-wrapper">
+                <p>deploy test</p>
                 <h3>Random Dog Image</h3> 
                     {/* loader={imageLoader}
                     src="me.png"
